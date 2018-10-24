@@ -101,7 +101,6 @@ def parse_json (input_json , stage_no,itr):
     #Case-5
     elif (('calculated_variable' and 'var' and 'formula') in input_json.keys()):
         globals().update(var_dict)
-        print(var_dict)
         var_dict[input_json['var']] = eval(input_json['formula'])
         return stage_no
     #Case-6
@@ -116,8 +115,6 @@ def parse_json (input_json , stage_no,itr):
                 print(input_json['instruction'] % (eval(input_json['instruction_var'][0]),var_dict['t_matrix'][i]))
             return stage_no
         else:
-            print(var_dict)
-            print(input_json['instruction_var'])
             input_list.append(input_json['instruction'] % (var_dict[input_json['instruction_var'][0]]))
             qucik_rep_active = False
             user_input_flag = False
@@ -135,6 +132,7 @@ for i in range(len(input_json['questions'])):
 
 ## Writing the output Json to File
 fo.write(json.dumps(output_json, indent = 4, separators=(',',': ')))
+print(fo.name + " is generated")
 ##Closing the Files before termination
 fo.close()
 f.close()

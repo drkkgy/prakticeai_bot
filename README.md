@@ -30,4 +30,6 @@ File = "assignment_1_input_2.json"  <-------------
 assignment_1output1.json
 assignment_1output2.json
 
+Note[Please input a single word for age and not a string "currently it fails on doing so"]
+
 for any issue in the code please let me know :)
