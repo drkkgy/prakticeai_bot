@@ -1,0 +1,110 @@
+{
+    "stage1": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "Before starting please tell me your first name"
+                }
+            }
+        ],
+        "User Says": "ankit"
+    },
+    "stage2": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "Please tell me your last name"
+                }
+            }
+        ],
+        "User Says": "yadav"
+    },
+    "stage3": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "And your gender?"
+                }
+            }
+        ],
+        "User Says": "male"
+    },
+    "stage4": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "May I know your age?"
+                }
+            }
+        ],
+        "User Says": "23"
+    },
+    "stage5": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "I couldn't quite get how that response can be your age :/ Please enter your valid age."
+                }
+            }
+        ],
+        "User Says": "23"
+    },
+    "stage6": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "Congratulations! Registration Successful."
+                }
+            }
+        ]
+    },
+    "stage7": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "Enter the first row of the matrix(3 integers space seperated)."
+                }
+            }
+        ],
+        "User Says": "['1', '2', '3']"
+    },
+    "stage8": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "Enter the second row of the matrix(3 integers space seperated)."
+                }
+            }
+        ],
+        "User Says": "['2', '3', '4']"
+    },
+    "stage9": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "Enter the third row of the matrix(3 integers space seperated)."
+                }
+            }
+        ],
+        "User Says": "['2', '3', '5']"
+    },
+    "stage10": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "Row i+1 : [1, 2, 2]"
+                }
+            },
+            {
+                "message": {
+                    "text": "Row i+1 : [2, 3, 3]"
+                }
+            },
+            {
+                "message": {
+                    "text": "Row i+1 : [3, 4, 5]"
+                }
+            }
+        ]
+    }
+}

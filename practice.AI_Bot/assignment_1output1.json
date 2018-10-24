@@ -1,0 +1,68 @@
+{
+    "stage1": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "Before starting please tell me your first name"
+                }
+            }
+        ],
+        "User Says": "['ankit']"
+    },
+    "stage2": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "Please tell me your last name"
+                }
+            }
+        ],
+        "User Says": "['yadav']"
+    },
+    "stage3": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "And your gender?",
+                    "quick_replies": [
+                        {
+                            "content_type": "text",
+                            "title": "Female",
+                            "payload": "female"
+                        }
+                    ]
+                }
+            }
+        ],
+        "User Says": "male"
+    },
+    "stage4": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "May I know your age?"
+                }
+            }
+        ],
+        "User Says": "['23']"
+    },
+    "stage5": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "I couldn't quite get how that response can be your age :/ Please enter your valid age."
+                }
+            }
+        ],
+        "User Says": "['23']"
+    },
+    "stage6": {
+        "Bot Says": [
+            {
+                "message": {
+                    "text": "Congratulations! Registration Successful."
+                }
+            }
+        ]
+    }
+}
